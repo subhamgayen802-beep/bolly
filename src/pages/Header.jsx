@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { Link, NavLink, useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { logoutUser, checkAuth } from '../features/authSlice';
-import { useCart } from '../context/CartContext';
+import { useCart } from '../context/cartContext';
 
 export default function Header() {
   const navigate = useNavigate();
