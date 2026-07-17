@@ -59,7 +59,7 @@ const BollyHero = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-12 gap-10 lg:gap-6 items-center min-h-screen lg:min-h-[90vh]">
           
           {/* ─── LEFT COLUMN ─── */}
-          <div className="lg:col-span-3 flex flex-col items-center lg:items-start text-center lg:text-left order-2 lg:order-1 space-y-6">
+          <div className="lg:col-span-3 flex flex-col items-center lg:items-start text-center lg:text-left order-2 lg:order-1 space-y-6 pt-8 lg:pt-6">
             
             {/* Badge */}
             <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-md rounded-full px-4 py-2 shadow-lg border border-purple-100/50">

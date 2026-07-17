@@ -157,7 +157,7 @@ export default function Header() {
       </div>
 
       {/* Spacer */}
-      <div className="h-[72px]"></div>
+      <div className="h-[30px]"></div>
     </>
   );
 }
