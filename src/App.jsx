@@ -7,7 +7,7 @@ import BollyHero from './pages/BottleViewer';
 import Blog from "./pages/blog"
 import About from "./pages/about"
 import Contact from "./pages/contact"
-import Shop from "./pages/shop"
+import Shop from "./pages/Shop"
 import Home from "./pages/homepage"
 import Login from "./pages/login"
 import SignUp from './pages/signup'
