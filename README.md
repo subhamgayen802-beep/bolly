@@ -1,16 +1,62 @@
-# React + Vite
+# Project Status
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##  Frontend (Completed)
 
-Currently, two official plugins are available:
+The frontend is fully completed using:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React (Vite)
+- JavaScript
+- HTML5
+- Tailwind CSS
+- React Router DOM
+- React Redux
+- Axios
 
-## React Compiler
+The UI is complete and should not be redesigned.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✅ Backend (Mostly Completed)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The backend has already been developed.
+
+The remaining features to implement are:
+
+### 1. Admin Panel
+
+Create an admin dashboard where the admin can:
+
+- View all users
+- View all orders
+- Confirm orders
+- Cancel orders
+- Manage users (if needed)
+- View booking status
+
+---
+
+### 2. Booking Confirmation
+
+Implement booking confirmation functionality.
+
+Requirements:
+
+- Users can create order requests.
+- New order should have a default status of `Pending`.
+- Admin can change the order status to:
+  - Confirmed
+  - Cancelled
+- When the status changes, it should be updated in the database.
+- The user should be able to see the updated booking status.
+
+---
+
+## Important
+
+Do NOT redesign or recreate the frontend.
+
+Only complete the remaining backend features and integrate Clerk authentication with the existing project.
+
+## Deployment
+
+bolly-nine.vercel.app
